@@ -21,7 +21,6 @@ namespace InventoryManager
 
         public override string DisplayFormat()
         {
-            // Return the result
             return $"{base.DisplayFormat()}\nMaterial: {Material}";
         }
 
@@ -33,7 +32,6 @@ namespace InventoryManager
 
         public override string InventoryFormat()
         {
-            // Return the inventory format
             return $"{base.InventoryFormat()},{Material}";
         }
     }
